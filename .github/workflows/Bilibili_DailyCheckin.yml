@@ -25,7 +25,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
+          pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple/
           pip install requests loguru
           
       - name: Execution Information
