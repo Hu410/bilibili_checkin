@@ -1,4 +1,4 @@
-name: Bilibili Daily Checkin
+name: action compile
 
 on:
   schedule:
